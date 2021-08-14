@@ -1,0 +1,29 @@
+.place {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 65px 0 0 40px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: #424242;
+
+    li {
+      margin-right: 20px;
+
+      &:nth-child(3){
+        margin-right: 10px;
+        &::after {
+          content: '-';
+          margin-left: 15px;
+      }
+      }
+    }
+  }
+}

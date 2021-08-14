@@ -1,0 +1,27 @@
+.logout {
+  margin: 26px 31px 15px auto ;
+
+  button {
+    border: none;
+    background-color: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #1157A7;
+
+    img {
+      margin-left: 20px;
+    }
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+}
